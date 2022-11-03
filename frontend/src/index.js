@@ -1,3 +1,5 @@
+// import "./css/index.css"
+
 import Dashboard from "./views/Dashboard.js";
 import Posts from "./views/Posts.js";
 import PostView from "./views/PostView.js";
