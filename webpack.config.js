@@ -9,7 +9,7 @@ const config = {
         app: './src/index.js'
     },
     output: {
-        path: path.resolve('dist'),
+        path: path.resolve('build'),
         filename: 'js/[name].js',
         chunkFilename: 'js/[name].[chunkhash:3].js'
     },
