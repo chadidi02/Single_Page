@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Single Page App</title>
+</head>
+
+<body>
+    <div class="container mx-auto px-4">
+
+        <header class="">
+            <div class="w-full flex flex-row items-center px-8 py-px md:py-1 justify-between shadow-sm bg-slate-200">
+
+                <!-- nav-menu -->
+                <div class="relative">
+                    <nav class="">
+
+                        <!-- Logo -->
+                        <div class="">
+                            <a href="" class="w-24">
+                                <img src="https://www.chadidi.dev/wp-content/uploads/2018/07/ac-logo100px.png"
+                                    alt="Souhaib">
+                            </a>
+                        </div>
+                        <!-- Logo -->
+
+                        <div class="hamburger-menu  flex flex-col justify-around cursor-pointer w-5 h-5 z-30 ">
+                            <div class="line line-1"></div>
+                            <div class="line line-2 ml-1"></div>
+                            <div class="line line-3"></div>
+                        </div>
+
+                        <!-- list -->
+                        <div class="navbar fixed flex items-center justify-center z-20 overflow-auto h-screen">
+                            <div class="nav-list  hidden flex flex-col lg:flex lg:items-center">
+                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
+                                    href="/" data-link>Home</a>
+                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
+                                    href="/about" data-link>About me</a>
+                                <a class="nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
+                                    href="/portfolio" data-link>Portfolio</a>
+                                <a class="nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
+                                    href="/blog" data-link>Blog</a>
+                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
+                                    href="/contact" data-link>Contact.</a>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+
+
+
+        <div id="app" class=" mt-20"></div>
+    </div>
+</body>
+
+</html>
