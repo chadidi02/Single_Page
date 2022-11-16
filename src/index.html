@@ -8,53 +8,66 @@
 </head>
 
 <body>
-    <div class="container mx-auto px-4">
-
-        <header class="">
-            <div class="w-full flex flex-row items-center px-8 py-px md:py-1 justify-between shadow-sm bg-slate-200">
-
-                <!-- nav-menu -->
-                <div class="relative">
-                    <nav class="">
-
-                        <!-- Logo -->
+    <div class="wrapper h-full">
+        <div class="container mx-auto px-4 py-5">
+            <header class="">
+                <div class="">
+                    <div class="flex justify-between items-center">
                         <div class="">
-                            <a href="" class="w-24">
-                                <img src="https://www.chadidi.dev/wp-content/uploads/2018/07/ac-logo100px.png"
-                                    alt="Souhaib">
+                            <a href="/" aria-label="home">
+                                <svg id="logo" class="w-16 h-16" xmlns="http://www.w3.org/2000/svg" role="img"
+                                    viewBox="0 0 84 96">
+                                    <title>Logo</title>
+                                    <g transform="translate(-8.000000, -2.000000)">
+                                        <g transform="translate(11.000000, 5.000000)">
+                                            <path
+                                                d="M45.691667,45.15 C48.591667,46.1 50.691667,48.95 50.691667,52.2 C50.691667,57.95 46.691667,61 40.291667,61 L28.541667,61 L28.541667,30.3 L39.291667,30.3 C45.691667,30.3 49.691667,33.15 49.691667,38.65 C49.691667,41.95 47.941667,44.35 45.691667,45.15 Z M33.591667,43.2 L39.241667,43.2 C42.791667,43.2 44.691667,41.85 44.691667,38.95 C44.691667,36.05 42.791667,34.8 39.241667,34.8 L33.591667,34.8 L33.591667,43.2 Z M33.591667,47.5 L33.591667,56.5 L40.191667,56.5 C43.691667,56.5 45.591667,54.75 45.591667,52 C45.591667,49.2 43.691667,47.5 40.191667,47.5 L33.591667,47.5 Z"
+                                                fill="currentColor">
+                                            </path>
+                                            <polygon id="Shape" stroke="currentColor" stroke-width="5"
+                                                stroke-linecap="round" stroke-linejoin="round"
+                                                points="39 0 0 22 0 67 39 90 78 68 78 23"></polygon>
+                                        </g>
+                                    </g>
+                                </svg>
                             </a>
                         </div>
-                        <!-- Logo -->
-
-                        <div class="hamburger-menu  flex flex-col justify-around cursor-pointer w-5 h-5 z-30 ">
-                            <div class="line line-1"></div>
-                            <div class="line line-2 ml-1"></div>
-                            <div class="line line-3"></div>
-                        </div>
-
-                        <!-- list -->
-                        <div class="navbar fixed flex items-center justify-center z-20 overflow-auto h-screen">
-                            <div class="nav-list  hidden flex flex-col lg:flex lg:items-center">
-                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
-                                    href="/" data-link>Home</a>
-                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
-                                    href="/about" data-link>About me</a>
-                                <a class="nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
-                                    href="/portfolio" data-link>Portfolio</a>
-                                <a class="nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
-                                    href="/blog" data-link>Blog</a>
-                                <a class=" nav-item nav-link ml-2 text-base font-medium text-gray-500 hover:text-gray-900"
-                                    href="/contact" data-link>Contact.</a>
-                            </div>
-                        </div>
-                    </nav>
+                        <nav class="">
+                            <ul class="flex ">
+                                <li class="ml-7 ">
+                                    <span class=" text-green-400">01.</span>
+                                    <a class="text-base font-medium hover:text-gray-900" href="/#about"
+                                        data-link>About</a>
+                                </li>
+                                <li class="ml-7 ">
+                                    <span class=" text-green-400">02.</span>
+                                    <a class="text-base font-medium hover:text-gray-900" href="/#jobs"
+                                        data-link>Experience</a>
+                                </li>
+                                <li class="ml-7 ">
+                                    <span class=" text-green-400">03.</span>
+                                    <a class="text-base font-medium hover:text-gray-900" href="/#projects"
+                                        data-link>Work</a>
+                                </li>
+                                <li class="ml-7 ">
+                                    <span class=" text-green-400">04.</span>
+                                    <a class="text-base font-medium hover:text-gray-900" href="/#contact"
+                                        data-link>Contact</a>
+                                </li>
+                            </ul>
+                        </nav>
+                    </div>
                 </div>
-            </div>
-        </header>
-
-
-
-        <div id="app" class=" mt-20"></div>
+            </header>
+            <section>
+                <div id="home" class="">
+                    hello souhaib
+                </div>
+            </section>
+            <section>
+                <div id="app" class="my-10"></div>
+            </section>
+        </div>
     </div>
 </body>
 
